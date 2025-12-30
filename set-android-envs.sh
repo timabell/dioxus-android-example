@@ -5,9 +5,9 @@ set -e
 
 # Path for android studio installed by jetbrains toolbox on linux
 # https://www.jetbrains.com/toolbox-app/
-android_studio="~/.local/share/JetBrains/Toolbox/apps/android-studio"
+android_studio="$HOME/.local/share/JetBrains/Toolbox/apps/android-studio"
 
-export JAVA_HOME="$android_studio/jbr/Contents/Home"
+export JAVA_HOME="$android_studio/jbr"
 
 export ANDROID_HOME="$HOME/Android/Sdk"
 
