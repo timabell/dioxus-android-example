@@ -5,6 +5,10 @@
 # HTML title tag content
 title = "dx-example"
 
+[bundle]
+identifier = "co.rustworkshop.dioxus_example"
+publisher = "tim-abell"
+
 # include `assets` in web platform
 [web.resource]
 
